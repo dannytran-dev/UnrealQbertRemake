@@ -1,0 +1,6 @@
+# Unreal assets are binary: never diff or merge them as text.
+*.uasset binary
+*.umap binary
+
+# Keep repository language stats focused on the C++ source.
+Docs/** linguist-documentation
